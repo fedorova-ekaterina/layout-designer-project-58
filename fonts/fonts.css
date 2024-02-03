@@ -1,0 +1,17 @@
+@font-face {
+    font-weight: 400;
+    font-family: "Neucha";
+    src: url("./Neucha.woff2");
+  }
+
+  @font-face {
+    font-weight: 400;
+    font-family: "Open Sans";
+    src: url("./OpenSans-Regular.woff2");
+  }
+
+  @font-face {
+    font-weight: 700;
+    font-family: "Open Sans";
+    src: url("./OpenSans-Bold.woff2");
+  }
