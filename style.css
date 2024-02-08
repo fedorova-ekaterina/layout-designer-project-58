@@ -19,6 +19,10 @@ img {
     height: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 .page-body {
     margin: 0;
     padding: 0;
@@ -139,13 +143,32 @@ img {
     background-color: var(--primary-dark);
 }
 
+.info__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
 .info__title {
     color: var(--primary-color);
 }    
 
+.info__container {
+    padding-top: 100px;
+}
 
-.info__list {
-    list-style: none;
-    margin: 0;
-    padding: 0;   
+.a {
+    flex-basis: 350px;
+    min-height: 323px;
+}
+
+.info__card {
+    background-color: var(--light);
+    padding: 20px;
+}
+
+.card__text {
+    color: var(--dark);
+    font-style: 16px;
 }
